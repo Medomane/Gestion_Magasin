@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Vd6UemMsP2LS0lrN5IS3EziP00" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Find-The-Flaw-master" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mohamed\IdeaProjects\Gestion_Magasin\src\sample\Client" />
+      <recent name="C:\Users\mohamed\IdeaProjects\Gestion_Magasin\src\Controller\Classes" />
+      <recent name="C:\Users\mohamed\IdeaProjects\Gestion_Magasin\src\Model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mohamed\IdeaProjects\Gestion_Magasin\src\tmp\Images" />
+      <recent name="C:\Users\mohamed\IdeaProjects\Gestion_Magasin\src\tmp\css" />
+      <recent name="C:\Users\mohamed\IdeaProjects\Gestion_Magasin\src\tmp\Images\images" />
+      <recent name="C:\Users\mohamed\IdeaProjects\Gestion_Magasin\src\tmp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="Gestion_Magasin" />
+      <option name="VM_PARAMETERS" value="--module-path C:\ProgramData\tjava\javafx-sdk-13.0.1\lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.Administrator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="93" key="#Auto_Import" timestamp="1577926608285">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="392" y="93" key="#Auto_Import/0.0.1600.870@0.0.1600.870" timestamp="1577926608285" />
+    <state x="392" y="96" key="#Inspections" timestamp="1577770552171">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="392" y="96" key="#Inspections/0.0.1600.870@0.0.1600.870" timestamp="1577770552171" />
+    <state x="392" y="96" width="816" height="726" key="#Intentions" timestamp="1577722386621">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="392" y="96" width="816" height="726" key="#Intentions/0.0.1600.870@0.0.1600.870" timestamp="1577722386621" />
+    <state x="392" y="96" key="#Java" timestamp="1577785542733">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="392" y="96" key="#Java/0.0.1600.870@0.0.1600.870" timestamp="1577785542733" />
+    <state x="392" y="96" key="#Project_Structure" timestamp="1577571202799">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="392" y="96" key="#Project_Structure/0.0.1600.870@0.0.1600.870" timestamp="1577571202799" />
+    <state x="254" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578373529369">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="254" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.870@0.0.1600.870" timestamp="1578373529369" />
+    <state x="605" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1578247258472">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="605" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1600.870@0.0.1600.870" timestamp="1578247258472" />
+    <state x="630" y="137" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1577570766210">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="630" y="137" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1600.870@0.0.1600.870" timestamp="1577570766210" />
+    <state x="509" y="181" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1577631808270">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="509" y="181" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1600.870@0.0.1600.870" timestamp="1577631808270" />
+    <state x="554" y="153" key="DetectedRootsChooserDialog" timestamp="1577571197042">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="554" y="153" key="DetectedRootsChooserDialog/0.0.1600.870@0.0.1600.870" timestamp="1577571197042" />
+    <state x="580" y="192" key="FileChooserDialogImpl" timestamp="1578372906695">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="580" y="192" key="FileChooserDialogImpl/0.0.1600.870@0.0.1600.870" timestamp="1578372906695" />
+    <state width="1557" height="225" key="GridCell.Tab.0.bottom" timestamp="1578362550110">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.bottom/0.0.1600.870@0.0.1600.870" timestamp="1578362550110" />
+    <state width="1557" height="225" key="GridCell.Tab.0.center" timestamp="1578362550108">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.center/0.0.1600.870@0.0.1600.870" timestamp="1578362550108" />
+    <state width="1557" height="225" key="GridCell.Tab.0.left" timestamp="1578362550105">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.left/0.0.1600.870@0.0.1600.870" timestamp="1578362550105" />
+    <state width="1557" height="225" key="GridCell.Tab.0.right" timestamp="1578362550109">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.right/0.0.1600.870@0.0.1600.870" timestamp="1578362550109" />
+    <state x="303" y="80" key="SettingsEditor" timestamp="1577785585427">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="303" y="80" key="SettingsEditor/0.0.1600.870@0.0.1600.870" timestamp="1577785585427" />
+    <state x="504" y="328" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577994186485">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="504" y="328" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.870@0.0.1600.870" timestamp="1577994186485" />
+    <state x="443" y="49" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577786344456">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="443" y="49" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1600.870@0.0.1600.870" timestamp="1577786344456" />
+    <state x="456" y="198" width="672" height="677" key="run.anything.popup" timestamp="1577900270324">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="456" y="198" width="672" height="677" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1577900270324" />
+    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1578247256665">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="463" y="182" width="672" height="678" key="search.everywhere.popup/0.0.1600.870@0.0.1600.870" timestamp="1578247256665" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Gestion_Magasin$Main.ic" NAME="Main Coverage Results" MODIFIED="1578251350422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sample.Administrator.*</FILTER>
+    </SUITE>
+  </component>
+</project>

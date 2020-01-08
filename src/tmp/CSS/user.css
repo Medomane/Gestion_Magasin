@@ -1,0 +1,41 @@
+/*Left buttons*/
+.left-btn:disabled{
+    -fx-background-color: darkgray;
+}
+.left-btn:hover{
+    -fx-background-color: limegreen;
+}
+.left-btn {
+    -fx-font: 15px "Sans-Serif";
+    -fx-pref-height: 40;
+    -fx-pref-width: 100;
+    -fx-padding: 10 2 10 2;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-background-color: orange;
+    -fx-cursor:hand;
+}
+/*----------------------------------*/
+.LeftBox{
+    -fx-background-color: cyan;
+    -fx-padding: 5 5 5 5;
+}
+.BottomBox{
+    -fx-text-fill: white;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-padding:5px 0px 5px 0px;
+    -fx-font-size: 14;
+}
+.text-error{
+    -fx-border-color: rgba(255,0,0,0.5);
+}
+.panelTitle{
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-padding:10px 0px 10px 0px;
+    -fx-font-size: 18;
+    -fx-background-color: orange;
+}
+.total-label{
+    -fx-padding:5px 0px 5px 0px;
+    -fx-font-size: 15;
+}

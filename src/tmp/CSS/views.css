@@ -1,0 +1,32 @@
+/*Left buttons*/
+.left-btn:disabled{
+    -fx-background-color: darkgray;
+}
+.left-btn:hover{
+    -fx-background-color: rgba(0,0,255,0.6);
+}
+.left-btn {
+    -fx-font: 18px "Sans-Serif";
+    -fx-pref-height: 40;
+    -fx-pref-width: 150;
+    -fx-text-fill:white;
+    -fx-padding: 20 5 20 5;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+    -fx-background-color: rgba(0,0,255,0.5);
+    -fx-cursor:hand;
+}
+/*----------------------------------*/
+.LeftBox{
+    -fx-background-color: cyan;
+    -fx-padding: 5 5 5 5;
+}
+.BottomBox{
+    -fx-text-fill: white;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-padding:5px 0px 5px 0px;
+    -fx-font-size: 14;
+}
+.text-error{
+    -fx-border-color: rgba(255,0,0,0.5);
+}
