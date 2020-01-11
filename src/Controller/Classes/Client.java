@@ -24,9 +24,7 @@ public class Client {
     public void setEmail(String email) {
         this.email = email;
     }
-    public String toString(){
-        return nom + " " + prenom+", "+telephone+", "+email;
-    }
+
     public long getId() {
         return id;
     }
@@ -65,5 +63,10 @@ public class Client {
 
     public void setMot_de_passe(String mot_de_passe) {
         this.mot_de_passe = mot_de_passe;
+    }
+
+    @Override
+    public String toString(){
+        return nom + " " + prenom+", "+telephone+", "+email;
     }
 }

@@ -1,5 +1,6 @@
 package sample.Administrator;
 
+import Config.Conf;
 import View.Administrator.Categorie;
 import View.Administrator.Client;
 import View.Administrator.Detail;
@@ -19,7 +20,6 @@ public class Administrateur {
     public void Init(){
         final Stage[] dialog = {new Stage()};
         dialog[0] = new Stage();
-
 
         BorderPane root = new BorderPane();
 
@@ -43,7 +43,7 @@ public class Administrateur {
         dialog[0].initModality(Modality.APPLICATION_MODAL);
         dialog[0].initOwner(window);
         dialog[0].getIcons().add(new Image("tmp/Images/logo.png"));
-        dialog[0].setTitle("Gestion de magasin");
+        dialog[0].setTitle(Conf.AppName);
         dialog[0].resizableProperty().setValue(Boolean.FALSE);
         dialog[0].setScene(dialogScene);
         dialog[0].show();

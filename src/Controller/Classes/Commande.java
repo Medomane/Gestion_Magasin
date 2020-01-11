@@ -7,9 +7,11 @@ public class Commande {
     private Date date ;
     private String type_de_paiement;
     private long client_id ;
+
     public Commande(){
 
     }
+
     public Commande(long id, Date date,String type_de_paiement,long client_id){
         this.id = id ;
         this.date = date ;

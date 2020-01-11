@@ -61,7 +61,7 @@ public class _categorie {
             libelle.getStyleClass().add("text-error");
             return false ;
         }
-        else if(_categorie.Get(_db.Where("libelle = "+_db.Str(libelle.getText()) + ((id == -1)?"":" AND id <> "+id),"categorie","*")) == null){
+        else if(_categorie.Get(_db.Where("libelle = "+_db.Str(libelle.getText()) + ((id <=0) ?"":" AND id <> "+id),"categorie","*")) != null){
             _notify.Show("Erreur","Erreur  d'information","Catégorie déjà existe !!!", Alert.AlertType.ERROR);
             return false ;
         }

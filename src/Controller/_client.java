@@ -81,7 +81,7 @@ public class _client {
             mot_de_passeTextField.getStyleClass().add("text-error");
             return false ;
         }
-        else if(_client.Get(_db.Get("SELECT * FROM client WHERE email = "+_db.Str(emailTextField.getText()) + ((id == -1)?"":" AND id <> "+id))) != null){
+        else if(_client.Get(_db.Get("SELECT * FROM client WHERE email = "+_db.Str(emailTextField.getText()) + ((id <= 0)?"":" AND id <> "+id))) != null){
             _notify.Show("Erreur","email","Email déjà existe !!!", Alert.AlertType.ERROR);
             return false ;
         }

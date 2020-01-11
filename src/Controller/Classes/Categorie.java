@@ -34,6 +34,7 @@ public class Categorie {
     public void setAvatar(String avatar) {
         this.avatar = avatar;
     }
+
     @Override
     public String toString() {
         return libelle;

@@ -2,10 +2,6 @@ package Core;
 
 import javafx.beans.property.ObjectProperty;
 import javafx.beans.property.SimpleObjectProperty;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
@@ -51,33 +47,14 @@ public class _controls {
         }
 
         private void initHandlers() {
-            setOnAction(new EventHandler<ActionEvent>() {
-                @Override
-                public void handle(ActionEvent arg0) {
+            setOnAction(e -> parseAndFormatInput());
+            focusedProperty().addListener((observable, oldValue, newValue) -> {
+                if (!newValue) {
                     parseAndFormatInput();
                 }
             });
-            focusedProperty().addListener(new ChangeListener<Boolean>() {
-                @Override
-                public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
-                    if (!newValue.booleanValue()) {
-                        parseAndFormatInput();
-                    }
-                }
-            });
-            // Set text in field if BigDecimal property is changed from outside.
-            numberProperty().addListener(new ChangeListener<BigDecimal>() {
-                @Override
-                public void changed(ObservableValue<? extends BigDecimal> obserable, BigDecimal oldValue, BigDecimal newValue) {
-                    setText(nf.format(newValue));
-                }
-            });
+            numberProperty().addListener((observable, oldValue, newValue) -> setText(nf.format(newValue)));
         }
-
-        /**
-         * Tries to parse the user input to a number according to the provided
-         * NumberFormat
-         */
         private void parseAndFormatInput() {
             try {
                 String input = getText();

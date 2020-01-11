@@ -65,6 +65,7 @@ public class Produit {
         this.quantite_disponible = quantite_disponible;
     }
 
+    @Override
     public String toString(){
         return "Désignation : "+getDesignation()+", Catégorie : "+getCategorie_id();
     }

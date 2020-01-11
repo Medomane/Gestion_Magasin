@@ -1,10 +1,7 @@
 package Core;
 
-import Controller._client;
 import javafx.animation.*;
 import javafx.scene.Node;
-import javafx.scene.control.Alert;
-import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.transform.Rotate;
@@ -44,7 +41,6 @@ public class _func {
         File df = new File(Path.of(URLDecoder.decode(Path.of(name).toAbsolutePath().toString(), StandardCharsets.UTF_8)).toUri());
         String path = "tmp/Images/logo.png";
         if(df.exists()) path = df.toURI().toString();
-        //System.out.println(path);
         ImageView icon = new ImageView(new Image(path));
         icon.setFitHeight(h);
         icon.setFitWidth(w);

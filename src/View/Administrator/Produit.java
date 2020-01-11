@@ -281,15 +281,13 @@ public class Produit {
                 flag = true ;
                 var list = _categorie.Get();
                 if(list != null) categorieComboBox.getItems().addAll(list);
+                else categorieComboBox.getItems().clear();
                 return null ;
             }
         };
-        sleeper.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
-            @Override
-            public void handle(WorkerStateEvent event) {
-                rotate.stop();
-                buttons[3].setDisable(false);
-            }
+        sleeper.setOnSucceeded(event -> {
+            rotate.stop();
+            buttons[3].setDisable(false);
         });
         new Thread(sleeper).start();
     }

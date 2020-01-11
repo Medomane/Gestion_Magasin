@@ -223,23 +223,19 @@ public class Categorie {
         var rotate = _func.Rotate(buttons[3].getGraphic());
         buttons[3].setDisable(true);
         if(!table.getItems().isEmpty()) table.getItems().clear();
-        Task<Void> sleeper = new Task<Void>() {
+        Task<Void> sleeper = new Task<>() {
             @Override
             protected Void call() throws Exception {
                 Thread.sleep(400);
                 List<Controller.Classes.Categorie> t = _categorie.Get();
                 if (t != null) table.getItems().addAll(t);
-                _func.Print(t.size());
-                flag = true ;
-                return null ;
+                flag = true;
+                return null;
             }
         };
-        sleeper.setOnSucceeded(new EventHandler<WorkerStateEvent>() {
-            @Override
-            public void handle(WorkerStateEvent event) {
-                rotate.stop();
-                buttons[3].setDisable(false);
-            }
+        sleeper.setOnSucceeded(event -> {
+            rotate.stop();
+            buttons[3].setDisable(false);
         });
         new Thread(sleeper).start();
     }

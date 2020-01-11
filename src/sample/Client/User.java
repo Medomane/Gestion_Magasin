@@ -31,7 +31,7 @@ public class User {
         profile.Init();
 
         TabPane tabPane = new TabPane();
-        tabPane.getTabs().addAll(offres.tab,profile.tab);//categorieView.tab,produitView.tab,clientView.tab);
+        tabPane.getTabs().addAll(offres.tab,profile.tab);
         tabPane.setTabClosingPolicy(TabPane.TabClosingPolicy.UNAVAILABLE);
 
         root.setCenter(tabPane);

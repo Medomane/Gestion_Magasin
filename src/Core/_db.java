@@ -11,6 +11,7 @@ import java.sql.SQLException;
 import java.util.Objects;
 
 public class _db {
+
     public static Connection GetConnection(){
         try{
             Class.forName (Conf.Driver);
@@ -22,10 +23,10 @@ public class _db {
         }
         return null ;
     }
+
     public static ResultSet Get(String sql) {
         try {
-            Statement statement = (Statement) Objects.requireNonNull(GetConnection()).createStatement();
-            return (ResultSet)statement.executeQuery(sql) ;
+            return Objects.requireNonNull(GetConnection()).createStatement().executeQuery(sql);
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -52,14 +53,13 @@ public class _db {
                     return generatedKey;
                 }
             }
-            else {
-                return ((Statement)(Objects.requireNonNull(GetConnection()).createStatement())).execute(sql) ?1:0;
-            }
+            else return Objects.requireNonNull(GetConnection()).createStatement().execute(sql) ?1:0;
         }catch (Exception e) {
             e.printStackTrace();
         }
         return 0;
     }
+
     public static int Count(ResultSet rs) {
         try{
             int c = 0;
@@ -68,9 +68,11 @@ public class _db {
         }
         catch (SQLException e){return 0;}
     }
+
     public static String Str(String str){
         return "'"+str.replace("'","''")+"'";
     }
+
     public static String Search_Str(String str){
         return "'%"+str.replace("'","''")+"%'";
     }
